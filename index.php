@@ -4,47 +4,47 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineNet Software</title>
+    <meta charset="UTF-8">
     <link rel="icon" type="imagen/png" href="img/icono.png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 align="center">CineNet Software</h1>
-    <br>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo">CineNet</a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Facturación</a></li>
+                    <li><a href="#">Registros</a></li>
+                    <li><a href="#">Cartelera</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="container" border='100'>
-    <table class="table">
-    <thead class="bg-info">
-        <tr>
-        <th scope="col">FACTURACIÓN</th>
-        <th scope="col">REGISTROS</th>
-        <th scope="col">CARTELERA</th>
-        <th scope="col">FAQ</th>
-        </tr>
-    </thead>
-    <tbody>
+    <main class="main">
+        <div class="container">
+            <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit provident aliquid dicta incidunt asperiores minus, debitis illo eligendi magnam neque nulla distinctio mollitia sunt porro ab voluptas vitae, ipsam eos.
+            </p>
+        </div>
+    </main>
 
-    <?php
-        $result = $conectar->query("SELECT * FROM usuarios");
-            foreach($result as $row){
-            ?>
-        <tr>
-        
-            <td> <?php echo $row['cod_usuario'] ?> </td>
-            <td> <?php echo $row['nomb_usuario'] ?> </td>
-            <td> <?php echo $row['tipo_usuario'] ?> </td>
-            <td> <?php echo $row['descuento'] ?> </td>
-        </tr>
-        <?php
-            }
-        ?>
-    </tbody>
-    </table>
-</div>
+    <buttom class="btn btn-primary"> Boton </buttom>
 
+    <footer class="footer">
+     <div class="container">
+        <p>Derechos reservados cinenet@software.com</p>
+     </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
