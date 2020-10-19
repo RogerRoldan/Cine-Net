@@ -29,15 +29,15 @@
     <tbody>
 
     <?php
-        $result = $conectar->query("SELECT * FROM peliculas");
+        $result = $conectar->query("SELECT * FROM usuarios");
             foreach($result as $row){
             ?>
         <tr>
         
-            <td> <?php echo $row['cod_pelicula'] ?> </td>
-            <td> <?php echo $row['nomb_pelicula'] ?> </td>
-            <td> <?php echo $row['genero'] ?> </td>
-            <td> <?php echo $row['clasificacion'] ?> </td>
+            <td> <?php echo $row['cod_usuario'] ?> </td>
+            <td> <?php echo $row['nomb_usuario'] ?> </td>
+            <td> <?php echo $row['tipo_usuario'] ?> </td>
+            <td> <?php echo $row['descuento'] ?> </td>
         </tr>
         <?php
             }

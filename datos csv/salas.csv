@@ -1,0 +1,8 @@
+cod_sala,nomb_sala ,capacidad,tipo_sala,valor
+s1,Sala 01,40,2D,8000
+s2,Sala 02,40,2D,8000
+s3,Sala 03,40,2D,8000
+s4,Sala 04,40,3D,12000
+s5,Sala 05,40,3D,12000
+s6,Sala 06,40,2D,8000
+s7,Dinamix 4D,40,4D,20000

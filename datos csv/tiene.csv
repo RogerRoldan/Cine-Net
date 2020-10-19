@@ -1,0 +1,150 @@
+cod_persona,cod_pelicula,participación
+r1,p1,Guy
+r2,p1,Eep
+r3,p1,Grug
+r4,p1,Ugga
+r5,p1,Thunk
+r6,p1,Gran
+r7,p1,Sandy
+r8,p1,Director
+r9,p1,Director
+r10,p2,Rick Deckard
+r11,p2,Rachael
+r12,p2,Roy batty
+r13,p2,Gaff
+r14,p2,Pris
+r15,p2,Leon kowalski
+r16,p2,Director
+r16,p3,Director
+r17,p3,Maximo 
+r18,p3,Comodo 
+r19,p3,Lucilla
+r20,p3,Proximo 
+r21,p3,Juba
+r22,p3,Marco Aurelio
+r23,p3,Graco
+r24,p3,Lucio Vero
+r25,p4,Director
+r26,p4,Director
+r27,p4,Rocky Balboa
+r28,p4,Adriana Pennino
+r29,p4,Paulie Pennino
+r30,p4,Apollo Creed 
+r31,p4,Mickey Goldmill
+r32,p4,Duke
+r33,p5,Director
+r34,p5,Mitshuha Miyamizu
+r35,p5,Taki Tachibana
+r36,p5,Sayaka Natori
+r37,p5,Shinta Takagi
+r38,p5,Yosuha Miyamizu
+r39,p6,Director
+r40,p6,Harry Potter
+r41,p6,Hermione Granger
+r42,p6,Ron Weasley
+r43,p6,Draco Malfoy
+r44,p6,Serverus Snake
+r45,p6,Albus Dumbledore
+r46,p7,Director
+r47,p7,Haruki shiga
+r48,p7,Takahiro
+r49,p7,Kyoko
+r50,p7,Gum Boy
+r51,p8,Director
+r52,p8,Koyomi Araragi
+r53,p8,Shinobu Oshino
+r54,p8,Tsubasa Hanekawa
+r55,p8,Oshino Meme
+r56,p8,Dramaturgie
+r58,p9,Director
+r59,p9,Rose Dewitt
+r60,p9,Jack Dawson 
+r61,p9,Caledon Hockley
+r62,p9,Molly Brown
+r63,p9,Thomas Andrews
+r64,p9,Ruth Dewitt
+r100,p9,Brock Lovett
+r65,p10,Director
+r66,p10,Spider-Man
+r67,p10,Mary Jane
+r68,p10,Duende Verde
+r69,p10,Harry Osborn
+r70,p10,Flash Thompson
+r71,p10,Mary Parker
+r72,p11,Director
+r1,p11,DeadPool
+r73,p11,Vanessa
+r74,p11,Negasonic
+r75,p11,Comadreja
+r76,p11,Piotr Rasputin
+r77,p11,Ajax
+r78,p11,Dopinder
+r79,p12,Director
+r79,p12,Ted
+r80,p12,John Bennett
+r81,p12,Lori Collins
+r82,p12,Donny
+r83,p12,Tami-Lynn
+r84,p12,Rex
+r85,p13,Director
+r10,p13,Han Solo
+r86,p13,Luke Skywalker
+r87,p13,Leia Organa
+r88,p13,Obi-Wan Kenobi
+r89,p13,Chewbacca
+r90,p13,C-3P0
+r91,p13,Darth Vader
+r92,p14,Director
+r93,p14,Frodo Bolson
+r94,p14,Aragorn
+r95,p14,Gandalf
+r96,p14,Legolas
+r97,p14,Samsagaz Gamyi
+r98,p14,Boromir
+r99,p17,Director
+r60,p17,Dominick Cobb
+r101,p17,Arthur
+r102,p17,Ariadne
+r103,p17,Eames
+r104,p17,Rober Fischer
+r105,p17,Mal
+r106,p17,Saito
+r107,p17,Miles
+r108,p16,Director
+r109,p16,Conde Dracula
+r110,p16,Mina Harker
+r111,p16,Jhonatan Harker
+r112,p16,Abraham van Helsing
+r113,p16,Lucy Westenra
+r114,p16,Novia de Dracula
+r115,p15,Director
+r116,p15,Seita
+r117,p15,Setsuko
+r118,p15,Tia 
+r119,p15,Madre
+r120,p15,Medico
+r121,p18,Director
+r122,p18,Shazam
+r123,p18,Billy Batson
+r124,p18,Capitan Marvel Jr
+r125,p18,Doctor Sivana
+r126,p18,Mary Marvel 
+r127,p18,Eugene Choi
+r128,p18,Rosa Vasquez
+r129,p19,Director
+r130,p19,Brom
+r131,p19,Arya
+r132,p19,Murtagh
+r133,p19,Durza
+r134,p19,Galbatorix
+r135,p20,Director
+r136,p20,Sherk
+r137,p20,Burro
+r138,p20,Princesa Fiona
+r139,p20,Pinocho
+r140,p20,Jengibre
+r141,p21,Director
+r142,p21,Pazu
+r143,p21,Sheeta
+r144,p21,Dola
+r145,p21,Muska
