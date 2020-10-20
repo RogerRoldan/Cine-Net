@@ -14,36 +14,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container logo-nav-container">
-            <a href="#" class="logo">CineNet</a>
-            <nav class="navigation">
-                <ul>
-                    <li><a href="#">Facturación</a></li>
-                    <li><a href="#">Registros</a></li>
-                    <li><a href="#">Cartelera</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
+<?php
+    include("header.php");
+    ?>
     <main class="main">
-        <div class="container">
-            <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit provident aliquid dicta incidunt asperiores minus, debitis illo eligendi magnam neque nulla distinctio mollitia sunt porro ab voluptas vitae, ipsam eos.
-            </p>
+        <div class="container-fluid">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet omnis natus atque voluptatum est doloremque rerum quo! Quod, ipsa! Molestias, doloribus amet. Quos aliquam est voluptatibus doloremque tempore molestias. Ratione.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet omnis natus atque voluptatum est doloremque rerum quo! Quod, ipsa! Molestias, doloribus amet. Quos aliquam est voluptatibus doloremque tempore molestias. Ratione.</p>
+            
         </div>
     </main>
 
     <buttom class="btn btn-primary"> Boton </buttom>
-
-    <footer class="footer">
-     <div class="container">
-        <p>Derechos reservados cinenet@software.com</p>
-     </div>
-    </footer>
-
+    <?php
+    include("footer.php");
+    ?>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
