@@ -1,7 +1,7 @@
 cod_usuario,nomb_usuario,tipo_usuario,descuento 
 10002,Demetrio Da-Silva,Normal,20
 10003,Cristiano Ronaldo Dos Santos,VIP,40
-10004,Mike litoris Beek,Nomal,20
+10004,Mike litor Beek,Normal,20
 10005,Maria Luisa Rebollo,Normal,20
 10006,Luis David Campuzano,VIP,40
 10007,Juan Diego Ramirez ,VIP,40
@@ -19,7 +19,7 @@ cod_usuario,nomb_usuario,tipo_usuario,descuento
 10019,Miguel Angel Nogueiro,VIP,40
 10020,Maria Mercedes Victoria,VIP,40
 10021,Lucia Larrea Nogales,VIP,40
-10022,Nuria Dios Villalonga,Nomal,20
+10022,Nuria Dios Villalonga,Normal,20
 10023,Cesar Serna Bailon,Normal,20
 10024,Toma Vinuesa Palma,VIP,40
 10025,Mohamed Morales Blanch,VIP,40
@@ -37,5 +37,5 @@ cod_usuario,nomb_usuario,tipo_usuario,descuento
 10037,Susana Posada Lemos,VIP,40
 10038,Lidia Monroy Manzanares,VIP,40
 10039,Hector Marina Zamora,VIP,40
-10040,Victor Manuel Galiano,Nomal,20
+10040,Victor Manuel Galiano,Normal,20
 0,Usuario,No Aplica,0
