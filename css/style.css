@@ -18,7 +18,7 @@ p{
     margin-bottom: 1.6em;
 }
 
-.container-fluid {
+.container-fluid p{
     width: 85%;
     margin: 0 auto;
 }

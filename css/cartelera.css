@@ -1,0 +1,63 @@
+
+.boton{
+
+  height: 50px;
+  width: 100px;
+  padding: 0px;
+  margin: 15px;	
+
+  
+  margin-top: 5px;
+	margin-bottom: 0px;	
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom:5px; 
+}
+
+.seleccion{
+margin-left:0px;
+margin-top: 5px;
+}
+
+
+
+.boton input{
+	font-size:150%;
+}
+.texto{
+margin-left: 20px;
+}
+.push{
+
+	background:none;
+	padding: 0px;
+	 
+	margin-top: -62px;
+	margin-bottom: 0px;	
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	
+}
+
+.push input{
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top:7px; 
+	font-size: 150%;
+}
+
+.pelicula{
+
+	background:none;
+	padding: 0px;
+	 
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: -5px;
+}
+
+
+
+
+

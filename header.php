@@ -5,7 +5,7 @@
 <header class="header">
 <div class="header_logo">
      <img src="img/icono.png"/>
-  </div><!-- header_logo --> 
+  </div>
     <div class="container logo-nav-container">
         <a href="index.php" class="logo">CineNet</a>
             <nav class="navigation">
