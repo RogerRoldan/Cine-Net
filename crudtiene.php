@@ -18,6 +18,20 @@
 
    </head>
    <body>
+   <div class="container text-center py-1">
+  <div class="btn-group" role="group"  aria-label="First group">
+   <a href="crudpelicula.php" type="button" class="btn btn-secondary">Peliculas</a> 
+   <a href="crudsala.php" type="button" class="btn btn-secondary">Salas</a> 
+   <a href="crudusuario.php" type="button" class="btn btn-secondary">Usuarios</a> 
+   <a href="crudreparto.php" type="button" class="btn btn-secondary">Reparto</a> 
+   <a href="crudtiene.php" type="button" class="btn btn-info">Tiene</a> 
+   <a href="crudcartelera.php" type="button" class="btn btn-secondary">Cartelera</a> 
+   <a href="crudtaquilla.php" type="button" class="btn btn-secondary">Taquilla</a> 
+   <a href="crudempleados.php" type="button" class="btn btn-secondary">Empleados</a> 
+   <a href="crudtiquete.php" type="button" class="btn btn-secondary">Tiquete</a> 
+   <a href="crudeventos.php" type="button" class="btn btn-secondary">Eventos</a> 
+  </div>
+  </div>
       <div class="container-fluid p-4">
          <div class="row">
             <div class="col-md-4">
@@ -29,7 +43,6 @@
       				 	 </button>
      					 </div>
     				  <?php session_unset(); } ?>
-
 
 
                <div class="card card-body">
@@ -51,9 +64,7 @@
                </div>
             </div>  
 
-            <div class="col-md-6">
-
-             
+            <div class="col-md-6" style="margin-top: 30px">
                <div class="col-md-12">
                   <h1 class="text-center" mt-4 >Lista de participantes reparto</h1>
                </div>

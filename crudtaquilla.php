@@ -18,6 +18,20 @@
 
    </head>
    <body>
+   <div class="container text-center py-1">
+  <div class="btn-group" role="group"  aria-label="First group">
+   <a href="crudpelicula.php" type="button" class="btn btn-secondary">Peliculas</a> 
+   <a href="crudsala.php" type="button" class="btn btn-secondary">Salas</a> 
+   <a href="crudusuario.php" type="button" class="btn btn-secondary">Usuarios</a> 
+   <a href="crudreparto.php" type="button" class="btn btn-secondary">Reparto</a> 
+   <a href="crudtiene.php" type="button" class="btn btn-secondary">Tiene</a> 
+   <a href="crudcartelera.php" type="button" class="btn btn-secondary">Cartelera</a> 
+   <a href="crudtaquilla.php" type="button" class="btn btn-info">Taquilla</a> 
+   <a href="crudempleados.php" type="button" class="btn btn-secondary">Empleados</a> 
+    <a href="crudtiquete.php" type="button" class="btn btn-secondary">Tiquete</a> 
+    <a href="crudeventos.php" type="button" class="btn btn-secondary">Eventos</a> 
+  </div>
+  </div>
       <div class="container-fluid p-4">
          <div class="row">
             <div class="col-md-4">
@@ -32,6 +46,7 @@
 
 
 
+
                <div class="card card-body">
                   <form action="ingresartaquilla.php" method="POST">
                   <div class="col-md-12">
@@ -41,14 +56,14 @@
                         <input type="text" name="cod_taquilla" class="form-control" placeholder="Codigo" autofocus>
                      </div>   
                       <div class="form-group">
-                        <input type="text" name="tipo_taquilla" class="form-control" placeholder="nombre" autofocus>
+                        <input type="text" name="tipo_taquilla" class="form-control" placeholder="tipo de taquilla" autofocus>
                      </div>  
                      <input type="submit" name="guardar_taquilla" class="btn btn-success btn-block" value="Guardar">
                   </form>
                </div>
             </div>  
 
-            <div class="col-md-8">
+            <div class="col-md-8" style="margin-top: 30px">
 
              
                <div class="col-md-12">
@@ -59,7 +74,7 @@
                      <thead class="thead-dark">
                         <tr>
                            <th scope="col">Codigo</th>
-                           <th scope="col">Nombre</th>
+                           <th scope="col">tipo de taquilla</th>
                            <th scope="col"></th>
                         </tr>
                      </thead>
