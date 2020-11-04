@@ -71,7 +71,7 @@ margin: 1%;
   display: table;
   position:fixed;
   top:525px;
-  left: 825px;
+  left: 760px;
 }
 
 .containercli{
@@ -83,7 +83,7 @@ margin: 1%;
   border-bottom-right-radius: 20px;
   display: table;
   position:fixed;
-  left: 425px;
+  left: 370px;
   top: 525px;
 }
 
@@ -100,7 +100,7 @@ margin: 1%;
   border-bottom-right-radius: 20px;
   display: table;
   position:fixed;
-  left: 1225px;
+  left: 1150px;
   top: 525px;
 }
 

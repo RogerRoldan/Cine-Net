@@ -57,3 +57,8 @@ CREATE TRIGGER eventos_peliculas AFTER INSERT OR UPDATE OR DELETE
 CREATE TRIGGER eventos_peliculas AFTER INSERT OR UPDATE OR DELETE
  ON empleados FOR EACH STATEMENT
  EXECUTE PROCEDURE grabar_eventos();
+
+
+-- Viasta de cartelera del dia
+create or replace view fechdia as Select c.cod_pelicula,p.nomb_pelicula,s.tipo_sala,c.horario,p.clasificacion from salas s join cartelera c on s.cod_sala=c.cod_sala join peliculas p on p.cod_pelicula=c.cod_pelicula 
+where c.fecha=current_date and c.horario>=current_time;

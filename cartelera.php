@@ -1,6 +1,7 @@
 <?php
     include("conexion_db.php");
     $conectar = conectar();
+    
 ?>
 
 <!DOCTYPE html>
@@ -47,18 +48,20 @@
             if(isset($_POST['fech1'])){
              	 $fec1=$_POST['fech1'];
              	 $f1 = date("d/m/Y", strtotime($fec1));
-              			$sql ="Select c.cod_pelicula,p.nomb_pelicula,s.tipo_sala,c.horario,p.clasificacion from salas s
+              		
+              		$sql ="Select c.cod_pelicula,p.nomb_pelicula,s.tipo_sala,c.horario,p.clasificacion from salas s
 									join cartelera c on s.cod_sala=c.cod_sala join peliculas p on p.cod_pelicula=c.cod_pelicula
 									where c.fecha='$f1'";
-									
+									}else {$sql= "select * from fechdia";
+									$result = $conectar->query($sql);}
               		$result = $conectar->query($sql);
              ?>
             
              <div class="container">
              <div class="row row-cols-1 row-cols-md-3">
-             			<?php foreach($result as $filas){?>
+             			<?php foreach($result as $filas){
+             				?>
        						<div class="col mb-4">
-       								
    										<div  style="width:20rem">
     								 			<img src="img/<?php echo $filas['cod_pelicula']?>.jpg" height="300px" class="card-img-top" alt="">
    											 <div class="card text-white bg-info mb-3 card-body" style="max-width 20rem;">
@@ -70,8 +73,8 @@
    										 </div>
    									
    							 </div>
-   						 <?php } 
-   						 }
+   						 <?php } 					 	
+   						 
    						 ?>
    			    </div>
    			    </div>
